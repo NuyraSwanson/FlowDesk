@@ -1,0 +1,240 @@
+# User Personas
+
+## Overview
+
+User personas represent the primary users of FlowDesk. They help ensure that every feature is designed with real users, their goals, and their challenges in mind.
+
+FlowDesk has four primary user groups:
+
+- Business Owner
+- Employee
+- Customer
+- Platform Administrator
+
+---
+
+# Persona 1: Business Owner
+
+## Profile
+
+**Name:** Sarah Williams
+
+**Age:** 36
+
+**Occupation:** Salon Owner
+
+**Technical Skill:** Intermediate
+
+**Primary Device:** Laptop
+
+---
+
+## Background
+
+Sarah owns a growing beauty salon with six employees. She currently manages appointments through WhatsApp, customer information in a notebook, and payments using spreadsheets.
+
+As her business grows, managing daily operations has become increasingly difficult.
+
+---
+
+## Goals
+
+- Manage appointments efficiently
+- Reduce administrative work
+- Keep customer information organised
+- Track business performance
+- Manage employees from one platform
+- Increase customer satisfaction
+
+---
+
+## Pain Points
+
+- Double bookings
+- Lost customer information
+- Too many WhatsApp messages
+- No business insights or reporting
+- Difficulty tracking staff performance
+
+---
+
+## How Sarah Uses FlowDesk
+
+- Logs in every morning
+- Reviews today's appointments
+- Adds new customers
+- Creates services
+- Manages employees
+- Views business reports
+- Updates business information
+
+---
+
+# Persona 2: Employee
+
+## Profile
+
+**Name:** Michael Daniels
+
+**Age:** 27
+
+**Occupation:** Hair Stylist
+
+**Technical Skill:** Intermediate
+
+**Primary Device:** Mobile Phone
+
+---
+
+## Background
+
+Michael works at Sarah's salon and manages multiple appointments each day.
+
+He needs quick access to his schedule without relying on paper diaries or constant communication with reception.
+
+---
+
+## Goals
+
+- View daily appointments
+- Manage customer bookings
+- Update appointment status
+- View customer notes
+- Stay organised
+
+---
+
+## Pain Points
+
+- Confusing schedules
+- Missed appointments
+- Last-minute booking changes
+- Poor communication
+
+---
+
+## How Michael Uses FlowDesk
+
+- Logs in before work
+- Checks today's schedule
+- Marks appointments as completed
+- Reviews customer notes
+- Updates appointment progress
+
+---
+
+# Persona 3: Customer
+
+## Profile
+
+**Name:** Emily Jacobs
+
+**Age:** 29
+
+**Occupation:** Marketing Consultant
+
+**Technical Skill:** Advanced
+
+**Primary Device:** Smartphone
+
+---
+
+## Background
+
+Emily regularly books appointments online and prefers businesses that offer quick, convenient booking without needing to make phone calls.
+
+She values speed, convenience, and clear communication.
+
+---
+
+## Goals
+
+- Book appointments online
+- Receive booking confirmation
+- View upcoming appointments
+- Cancel or reschedule appointments
+- Receive reminders
+
+---
+
+## Pain Points
+
+- Long waiting times
+- Phone-only bookings
+- Forgetting appointments
+- Limited booking availability
+
+---
+
+## How Emily Uses FlowDesk
+
+- Creates an account
+- Browses available services
+- Selects a staff member
+- Books appointments
+- Receives confirmation emails
+- Manages future bookings
+
+---
+
+# Persona 4: Platform Administrator
+
+## Profile
+
+**Name:** Nuyra Swanson
+
+**Age:** 23
+
+**Occupation:** Platform Administrator
+
+**Technical Skill:** Advanced
+
+**Primary Device:** Desktop Computer
+
+---
+
+## Background
+
+The Platform Administrator manages the overall FlowDesk platform rather than an individual business.
+
+This role ensures the platform remains secure, stable, and accessible for all registered businesses.
+
+---
+
+## Goals
+
+- Manage registered businesses
+- Monitor platform performance
+- Handle customer support
+- Manage subscriptions
+- Maintain platform security
+
+---
+
+## Pain Points
+
+- Monitoring multiple businesses
+- Resolving support requests
+- Ensuring platform reliability
+- Managing platform growth
+
+---
+
+## How the Platform Administrator Uses FlowDesk
+
+- Reviews platform analytics
+- Manages business accounts
+- Responds to support tickets
+- Monitors system health
+- Configures platform settings
+
+---
+
+# Summary
+
+| User | Primary Goal | Main Features Used |
+|-------|--------------|-------------------|
+| Business Owner | Manage the business | Dashboard, Customers, Staff, Services, Reports |
+| Employee | Manage daily work | Bookings, Calendar, Customers |
+| Customer | Book services | Booking System, Profile, Notifications |
+| Platform Administrator | Manage the FlowDesk platform | Business Management, Analytics, Support |
