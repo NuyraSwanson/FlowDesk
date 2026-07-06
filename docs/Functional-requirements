@@ -1,0 +1,230 @@
+# Functional Requirements
+
+## Overview
+
+This document defines the functional requirements for FlowDesk. Functional requirements describe the core functionality that the system must provide to meet user needs and business objectives.
+
+---
+
+# 1. User Authentication
+
+### FR-001
+The system shall allow users to register an account.
+
+### FR-002
+The system shall allow registered users to log in using their email address and password.
+
+### FR-003
+The system shall allow users to securely log out of the system.
+
+### FR-004
+The system shall allow users to reset forgotten passwords.
+
+### FR-005
+The system shall validate user credentials before granting access.
+
+---
+
+# 2. Business Management
+
+### FR-006
+The system shall allow business owners to create a business profile.
+
+### FR-007
+The system shall allow business owners to edit their business information.
+
+### FR-008
+The system shall allow business owners to upload a business logo.
+
+### FR-009
+The system shall allow business owners to configure business operating hours.
+
+### FR-010
+The system shall allow business owners to manage multiple business locations in future releases.
+
+---
+
+# 3. Dashboard
+
+### FR-011
+The system shall display a personalised dashboard after successful login.
+
+### FR-012
+The dashboard shall display today's appointments.
+
+### FR-013
+The dashboard shall display business statistics.
+
+### FR-014
+The dashboard shall display recent business activity.
+
+---
+
+# 4. Staff Management
+
+### FR-015
+The system shall allow business owners to add employees.
+
+### FR-016
+The system shall allow business owners to edit employee details.
+
+### FR-017
+The system shall allow business owners to deactivate employee accounts.
+
+### FR-018
+The system shall assign role-based permissions to employees.
+
+---
+
+# 5. Customer Management
+
+### FR-019
+The system shall allow business owners and authorised employees to add customers.
+
+### FR-020
+The system shall allow authorised users to edit customer information.
+
+### FR-021
+The system shall allow users to search for customers.
+
+### FR-022
+The system shall display customer profiles and booking history.
+
+---
+
+# 6. Service Management
+
+### FR-023
+The system shall allow business owners to create services.
+
+### FR-024
+The system shall allow business owners to edit service details.
+
+### FR-025
+The system shall allow business owners to remove services.
+
+### FR-026
+The system shall store service pricing and duration.
+
+---
+
+# 7. Booking Management
+
+### FR-027
+The system shall allow customers to create appointments online.
+
+### FR-028
+The system shall prevent double bookings.
+
+### FR-029
+The system shall display available booking slots.
+
+### FR-030
+The system shall allow business owners to approve or reject bookings.
+
+### FR-031
+The system shall allow appointments to be rescheduled.
+
+### FR-032
+The system shall allow appointments to be cancelled.
+
+### FR-033
+The system shall update the calendar automatically after booking changes.
+
+---
+
+# 8. Calendar
+
+### FR-034
+The system shall provide daily, weekly, and monthly calendar views.
+
+### FR-035
+The system shall display appointment details within the calendar.
+
+### FR-036
+The system shall allow users to access appointment information directly from the calendar.
+
+---
+
+# 9. Reports & Analytics
+
+### FR-037
+The system shall generate booking reports.
+
+### FR-038
+The system shall generate customer reports.
+
+### FR-039
+The system shall generate revenue reports.
+
+### FR-040
+The system shall display business performance statistics.
+
+---
+
+# 10. Notifications
+
+### FR-041
+The system shall send booking confirmation emails.
+
+### FR-042
+The system shall send appointment reminder notifications.
+
+### FR-043
+The system shall notify users when appointments are cancelled or rescheduled.
+
+---
+
+# 11. User Profile
+
+### FR-044
+The system shall allow users to view their profile.
+
+### FR-045
+The system shall allow users to update their personal information.
+
+### FR-046
+The system shall allow users to change their password.
+
+---
+
+# 12. Platform Administration
+
+### FR-047
+The system shall allow platform administrators to manage registered businesses.
+
+### FR-048
+The system shall allow platform administrators to suspend business accounts.
+
+### FR-049
+The system shall allow platform administrators to monitor platform usage.
+
+### FR-050
+The system shall allow platform administrators to manage support requests.
+
+---
+
+# Future Functional Requirements
+
+The following functionality is planned for future releases.
+
+### FR-051
+The system shall support online payments.
+
+### FR-052
+The system shall generate invoices.
+
+### FR-053
+The system shall manage inventory.
+
+### FR-054
+The system shall provide AI-powered business insights.
+
+### FR-055
+The system shall generate business websites.
+
+### FR-056
+The system shall support WhatsApp notifications.
+
+### FR-057
+The system shall provide a mobile application.
