@@ -1,0 +1,407 @@
+# FlowDesk Design System
+
+## Overview
+
+The FlowDesk Design System establishes a consistent visual language and reusable UI components across the platform. It ensures that every screen follows the same design principles, creating a cohesive, intuitive, and professional user experience.
+
+---
+
+# Design Principles
+
+FlowDesk is designed to be:
+
+- Clean
+- Modern
+- Professional
+- Friendly
+- Accessible
+- Responsive
+- Consistent
+
+The interface should reduce visual clutter while helping users complete tasks quickly and confidently.
+
+---
+
+# Brand Personality
+
+FlowDesk should feel:
+
+- Trustworthy
+- Efficient
+- Approachable
+- Innovative
+- Organised
+- Vibrant without being overwhelming
+
+---
+
+# Colour Palette
+
+## Primary
+
+| Name | Hex | Usage |
+|------|------|------|
+| FlowDesk Blue | #2563EB | Primary buttons, links, highlights |
+
+---
+
+## Secondary
+
+| Name | Hex | Usage |
+|------|------|------|
+| FlowDesk Purple | #7C3AED | Secondary actions, charts |
+
+---
+
+## Accent Colours
+
+| Name | Hex | Usage |
+|------|------|------|
+| Emerald | #10B981 | Success messages |
+| Amber | #F59E0B | Warnings |
+| Red | #EF4444 | Errors |
+| Sky Blue | #38BDF8 | Information |
+
+---
+
+## Neutral Colours
+
+| Name | Hex |
+|------|------|
+| White | #FFFFFF |
+| Background | #F8FAFC |
+| Card Background | #FFFFFF |
+| Border | #E2E8F0 |
+| Heading | #0F172A |
+| Body Text | #475569 |
+| Disabled | #CBD5E1 |
+
+---
+
+# Typography
+
+## Primary Font
+
+**Inter**
+
+Fallback:
+
+```
+Inter, Arial, sans-serif
+```
+
+---
+
+## Font Sizes
+
+| Element | Size |
+|----------|------|
+| Hero Title | 48px |
+| Page Title | 36px |
+| Section Heading | 28px |
+| Card Title | 22px |
+| Body Text | 16px |
+| Small Text | 14px |
+| Caption | 12px |
+
+---
+
+## Font Weights
+
+| Weight | Usage |
+|----------|------|
+| 700 | Headings |
+| 600 | Buttons |
+| 500 | Labels |
+| 400 | Body text |
+
+---
+
+# Layout
+
+## Maximum Width
+
+```
+1440px
+```
+
+---
+
+## Grid
+
+12-column responsive grid.
+
+---
+
+## Border Radius
+
+| Component | Radius |
+|------------|--------|
+| Buttons | 10px |
+| Cards | 16px |
+| Inputs | 10px |
+| Modals | 20px |
+
+---
+
+## Shadows
+
+Cards should use soft shadows:
+
+```
+0 8px 24px rgba(0,0,0,0.08)
+```
+
+---
+
+# Spacing System
+
+Use an 8-point spacing system.
+
+| Size | Pixels |
+|------|--------|
+| XS | 4px |
+| S | 8px |
+| M | 16px |
+| L | 24px |
+| XL | 32px |
+| XXL | 48px |
+| XXXL | 64px |
+
+---
+
+# Buttons
+
+## Primary Button
+
+- Blue background
+- White text
+- Rounded corners
+- Medium shadow
+
+Examples:
+
+- Save
+- Login
+- Register
+- Create Booking
+
+---
+
+## Secondary Button
+
+- White background
+- Blue border
+- Blue text
+
+Examples:
+
+- Cancel
+- Back
+- View Details
+
+---
+
+## Danger Button
+
+- Red background
+- White text
+
+Examples:
+
+- Delete
+- Remove
+
+---
+
+## Success Button
+
+- Green background
+- White text
+
+Examples:
+
+- Confirm
+- Complete
+
+---
+
+# Form Elements
+
+Input fields should include:
+
+- Rounded corners
+- Clear labels
+- Placeholder text
+- Validation messages
+- Focus state
+- Error state
+
+---
+
+# Cards
+
+Cards should include:
+
+- White background
+- Rounded corners
+- Soft shadow
+- Internal padding
+- Optional icon
+- Optional action button
+
+Cards are used for:
+
+- Statistics
+- Customer summaries
+- Reports
+- Dashboard widgets
+
+---
+
+# Icons
+
+Recommended icon library:
+
+**Lucide Icons**
+
+Alternative:
+
+- Heroicons
+- Font Awesome
+
+Icons should be:
+
+- Simple
+- Outline style
+- Consistent size
+
+---
+
+# Navigation
+
+## Sidebar
+
+Contains:
+
+- Logo
+- Dashboard
+- Calendar
+- Bookings
+- Customers
+- Staff
+- Services
+- Reports
+- Notifications
+- Settings
+
+---
+
+## Top Navigation
+
+Contains:
+
+- Search
+- Notifications
+- User Profile
+- Theme Toggle (future)
+
+---
+
+# Tables
+
+Tables should support:
+
+- Sorting
+- Pagination
+- Search
+- Filters
+- Responsive scrolling
+
+---
+
+# Dashboard Components
+
+Dashboard cards include:
+
+- Today's Appointments
+- Revenue
+- Customers
+- Staff
+- Upcoming Bookings
+- Recent Activity
+- Business Insights
+
+---
+
+# Notifications
+
+## Success
+
+- Green
+- Check icon
+
+## Warning
+
+- Amber
+- Warning icon
+
+## Error
+
+- Red
+- Error icon
+
+## Information
+
+- Blue
+- Information icon
+
+---
+
+# Charts
+
+Charts should include:
+
+- Line charts
+- Bar charts
+- Pie charts
+- Area charts
+
+Use colour consistently throughout the application.
+
+---
+
+# Responsive Breakpoints
+
+| Device | Width |
+|----------|--------|
+| Mobile | <768px |
+| Tablet | 768px–1023px |
+| Laptop | 1024px–1439px |
+| Desktop | 1440px+ |
+
+---
+
+# Accessibility
+
+FlowDesk should:
+
+- Meet WCAG accessibility guidelines where practical.
+- Use sufficient colour contrast.
+- Support keyboard navigation.
+- Include descriptive labels for form controls.
+- Provide meaningful feedback for user actions.
+
+---
+
+# Design Goals
+
+The interface should allow users to:
+
+- Find information quickly.
+- Complete tasks efficiently.
+- Understand system feedback immediately.
+- Navigate without confusion.
+- Enjoy a clean and engaging experience.
+
+Every design decision should prioritise clarity, consistency, and ease of use.
