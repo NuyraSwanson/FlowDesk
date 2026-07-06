@@ -1,0 +1,192 @@
+# Non-Functional Requirements
+
+## Overview
+
+This document defines the non-functional requirements for FlowDesk. These requirements specify the quality attributes and operational standards that the system must meet to ensure a secure, reliable, scalable, and user-friendly experience.
+
+---
+
+# 1. Performance
+
+### NFR-001
+The system shall load dashboard pages within 3 seconds under normal operating conditions.
+
+### NFR-002
+The system shall support multiple users accessing the platform simultaneously without noticeable performance degradation.
+
+### NFR-003
+The system shall process booking requests within 2 seconds under normal network conditions.
+
+### NFR-004
+The system shall optimise database queries to minimise response times.
+
+---
+
+# 2. Availability
+
+### NFR-005
+The system shall be available 99.5% of the time, excluding scheduled maintenance.
+
+### NFR-006
+The system shall recover gracefully from unexpected failures where possible.
+
+---
+
+# 3. Reliability
+
+### NFR-007
+The system shall maintain data integrity during normal operation.
+
+### NFR-008
+The system shall prevent duplicate bookings.
+
+### NFR-009
+The system shall save all successful transactions without data loss.
+
+---
+
+# 4. Security
+
+### NFR-010
+User passwords shall be securely encrypted before being stored.
+
+### NFR-011
+The system shall enforce secure user authentication.
+
+### NFR-012
+The system shall implement role-based access control.
+
+### NFR-013
+The system shall protect against common web security vulnerabilities such as SQL Injection and Cross-Site Scripting (XSS).
+
+### NFR-014
+The system shall automatically log users out after a period of inactivity.
+
+### NFR-015
+Sensitive information shall only be transmitted over secure HTTPS connections.
+
+---
+
+# 5. Usability
+
+### NFR-016
+The system shall provide a clean and intuitive user interface.
+
+### NFR-017
+Users shall be able to complete common tasks with minimal training.
+
+### NFR-018
+Navigation shall remain consistent throughout the application.
+
+### NFR-019
+The system shall provide clear validation messages when incorrect information is entered.
+
+### NFR-020
+The interface shall follow responsive design principles.
+
+---
+
+# 6. Compatibility
+
+### NFR-021
+The system shall support the latest versions of Google Chrome, Microsoft Edge, Mozilla Firefox, and Safari.
+
+### NFR-022
+The application shall function correctly on desktop, tablet, and mobile devices.
+
+---
+
+# 7. Scalability
+
+### NFR-023
+The system architecture shall support future feature expansion.
+
+### NFR-024
+The system shall support an increasing number of businesses and users without major architectural changes.
+
+### NFR-025
+The database shall support future growth while maintaining acceptable performance.
+
+---
+
+# 8. Maintainability
+
+### NFR-026
+The system shall follow a modular architecture to simplify maintenance.
+
+### NFR-027
+Source code shall follow consistent coding standards.
+
+### NFR-028
+The application shall be documented to support future development.
+
+### NFR-029
+The system shall use version control for source code management.
+
+---
+
+# 9. Data Management
+
+### NFR-030
+The system shall validate all user input before storing data.
+
+### NFR-031
+The database shall maintain referential integrity between related records.
+
+### NFR-032
+The system shall prevent duplicate customer and booking records where applicable.
+
+---
+
+# 10. Accessibility
+
+### NFR-033
+The application shall use readable fonts and sufficient colour contrast.
+
+### NFR-034
+The interface shall support keyboard navigation where practical.
+
+### NFR-035
+Images shall include descriptive alternative text where appropriate.
+
+---
+
+# 11. Backup and Recovery
+
+### NFR-036
+Business data shall be backed up regularly.
+
+### NFR-037
+The system shall allow restoration of backed-up data in the event of data loss.
+
+---
+
+# 12. Logging and Monitoring
+
+### NFR-038
+The system shall record significant application events for troubleshooting purposes.
+
+### NFR-039
+The system shall log authentication attempts.
+
+### NFR-040
+The system shall log system errors for diagnostic purposes.
+
+---
+
+# 13. Future Requirements
+
+### NFR-041
+The platform shall support cloud deployment.
+
+### NFR-042
+The system shall support third-party integrations through REST APIs.
+
+### NFR-043
+The platform shall support multiple languages in future releases.
+
+### NFR-044
+The application shall support horizontal scaling as the user base grows.
+
+### NFR-045
+The platform shall support continuous deployment and automated updates.
