@@ -1,0 +1,189 @@
+# FlowDesk Sitemap
+
+## Overview
+
+This sitemap outlines the structure and navigation of the FlowDesk web application. It includes all public pages, authenticated user pages, and platform administration pages planned for Version 1.0, with future expansion points where applicable.
+
+---
+
+# Public Website
+
+```
+FlowDesk
+│
+├── Home
+├── Features
+├── Pricing
+├── About
+├── Contact
+├── FAQ
+├── Privacy Policy
+├── Terms & Conditions
+├── Login
+├── Register
+└── Forgot Password
+```
+
+---
+
+# Authenticated Application
+
+```
+Dashboard
+│
+├── Dashboard
+│
+├── Calendar
+│   ├── Daily View
+│   ├── Weekly View
+│   └── Monthly View
+│
+├── Bookings
+│   ├── All Bookings
+│   ├── New Booking
+│   ├── Booking Details
+│   └── Edit Booking
+│
+├── Customers
+│   ├── Customer List
+│   ├── Add Customer
+│   ├── Customer Profile
+│   └── Edit Customer
+│
+├── Staff
+│   ├── Staff List
+│   ├── Add Employee
+│   ├── Employee Profile
+│   └── Edit Employee
+│
+├── Services
+│   ├── All Services
+│   ├── Add Service
+│   ├── Service Details
+│   └── Edit Service
+│
+├── Reports
+│   ├── Revenue Report
+│   ├── Booking Report
+│   ├── Customer Report
+│   └── Service Report
+│
+├── Notifications
+│
+├── Settings
+│   ├── Business Profile
+│   ├── Business Hours
+│   ├── Users & Permissions
+│   ├── Notification Settings
+│   ├── Security
+│   └── Account Settings
+│
+└── User Profile
+    ├── Personal Information
+    ├── Change Password
+    └── Logout
+```
+
+---
+
+# Customer Portal
+
+```
+Customer Portal
+│
+├── Dashboard
+├── Book Appointment
+├── Upcoming Bookings
+├── Booking History
+├── Profile
+├── Notifications
+└── Logout
+```
+
+---
+
+# Platform Administration
+
+```
+Platform Admin
+│
+├── Dashboard
+├── Businesses
+│   ├── Business List
+│   ├── Business Details
+│   └── Suspend Business
+│
+├── Users
+├── Support Requests
+├── Platform Analytics
+├── System Monitoring
+├── Platform Settings
+└── Logout
+```
+
+---
+
+# Future Expansion
+
+```
+Future Modules
+│
+├── AI Business Assistant
+├── Inventory Management
+├── Invoice Management
+├── Expense Tracking
+├── Website Generator
+├── Online Payments
+├── Loyalty Programme
+├── Marketing Tools
+├── Integrations
+└── Mobile Application
+```
+
+---
+
+# Navigation Summary
+
+### Public Users
+- Home
+- Features
+- Pricing
+- About
+- Contact
+- Login
+- Register
+
+### Business Owners
+- Dashboard
+- Calendar
+- Bookings
+- Customers
+- Staff
+- Services
+- Reports
+- Notifications
+- Settings
+- Profile
+
+### Employees
+- Dashboard
+- Calendar
+- Bookings
+- Customers
+- Notifications
+- Profile
+
+### Customers
+- Dashboard
+- Book Appointment
+- Upcoming Bookings
+- Booking History
+- Profile
+
+### Platform Administrator
+- Dashboard
+- Businesses
+- Users
+- Support
+- Analytics
+- System Monitoring
