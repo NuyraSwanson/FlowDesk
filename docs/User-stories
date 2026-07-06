@@ -1,0 +1,166 @@
+# User Stories
+
+## Overview
+
+User stories describe the functionality of FlowDesk from the perspective of its users. They capture what each type of user wants to accomplish and the value the feature provides.
+
+Each user story follows the format:
+
+> **As a [user], I want to [action], so that [benefit].**
+
+---
+
+# Business Owner
+
+## Account & Business
+
+- As a business owner, I want to create an account so that I can access FlowDesk.
+- As a business owner, I want to register my business so that I can start managing it online.
+- As a business owner, I want to update my business profile so that my business information remains accurate.
+- As a business owner, I want to upload my business logo so that my brand is displayed throughout the platform.
+- As a business owner, I want to configure my business hours so that customers can only book available times.
+
+---
+
+## Dashboard
+
+- As a business owner, I want to view a dashboard so that I can quickly understand how my business is performing.
+- As a business owner, I want to view today's appointments so that I know what work is scheduled.
+- As a business owner, I want to see customer and booking statistics so that I can monitor business growth.
+
+---
+
+## Staff Management
+
+- As a business owner, I want to add employees so that they can access the platform.
+- As a business owner, I want to edit employee information so that staff details remain up to date.
+- As a business owner, I want to remove employees so that former staff no longer have access.
+- As a business owner, I want to assign roles and permissions so that employees only access relevant features.
+
+---
+
+## Customer Management
+
+- As a business owner, I want to add new customers so that I can maintain a customer database.
+- As a business owner, I want to edit customer information so that records remain accurate.
+- As a business owner, I want to search for customers so that I can quickly access their information.
+- As a business owner, I want to view customer history so that I can provide better service.
+
+---
+
+## Services
+
+- As a business owner, I want to create services so that customers can book them.
+- As a business owner, I want to edit service details so that pricing and duration remain accurate.
+- As a business owner, I want to remove services so that unavailable services are no longer offered.
+
+---
+
+## Bookings
+
+- As a business owner, I want to create bookings on behalf of customers so that walk-in and phone bookings can be recorded.
+- As a business owner, I want to approve or reject booking requests so that my schedule remains manageable.
+- As a business owner, I want to reschedule appointments so that changes can be accommodated.
+- As a business owner, I want to cancel appointments when necessary so that my calendar remains accurate.
+
+---
+
+## Reports
+
+- As a business owner, I want to view business reports so that I can make informed decisions.
+- As a business owner, I want to monitor revenue trends so that I can evaluate business performance.
+- As a business owner, I want to identify popular services so that I can improve my offerings.
+
+---
+
+# Employee
+
+## Daily Work
+
+- As an employee, I want to log into FlowDesk so that I can access my schedule.
+- As an employee, I want to view today's appointments so that I know my daily workload.
+- As an employee, I want to update appointment statuses so that customers and managers remain informed.
+- As an employee, I want to access customer notes so that I can provide personalised service.
+
+---
+
+## Customer Interaction
+
+- As an employee, I want to search for customers so that I can quickly retrieve their information.
+- As an employee, I want to view service details so that I know exactly what is required for each appointment.
+
+---
+
+# Customer
+
+## Account
+
+- As a customer, I want to create an account so that I can manage my bookings.
+- As a customer, I want to log into my account so that I can access my booking history.
+- As a customer, I want to update my personal information so that my account remains accurate.
+
+---
+
+## Booking
+
+- As a customer, I want to browse available services so that I can choose the service I need.
+- As a customer, I want to view available time slots so that I can book a convenient appointment.
+- As a customer, I want to select my preferred employee so that I can book with someone I know.
+- As a customer, I want to receive booking confirmation so that I know my appointment has been scheduled.
+- As a customer, I want to receive appointment reminders so that I don't forget my booking.
+- As a customer, I want to reschedule appointments so that I have flexibility if my plans change.
+- As a customer, I want to cancel appointments so that unavailable time slots can be released.
+
+---
+
+## Profile
+
+- As a customer, I want to view my booking history so that I can keep track of previous appointments.
+- As a customer, I want to update my profile so that my contact information remains current.
+
+---
+
+# Platform Administrator
+
+## Platform Management
+
+- As a platform administrator, I want to view all registered businesses so that I can manage the platform.
+- As a platform administrator, I want to approve or suspend business accounts so that platform policies are maintained.
+- As a platform administrator, I want to monitor platform usage so that I understand system growth.
+
+---
+
+## Support
+
+- As a platform administrator, I want to respond to support requests so that users receive assistance.
+- As a platform administrator, I want to monitor system health so that platform reliability is maintained.
+
+---
+
+# Future User Stories
+
+These user stories are planned for future releases.
+
+## AI Business Assistant
+
+- As a business owner, I want AI-generated business insights so that I can make smarter business decisions.
+- As a business owner, I want recommendations for improving customer retention so that I can increase repeat business.
+
+---
+
+## Payments
+
+- As a customer, I want to pay online so that I can complete my booking immediately.
+- As a business owner, I want to track online payments so that I can monitor revenue.
+
+---
+
+## Website Generator
+
+- As a business owner, I want to generate a business website automatically so that customers can discover my services online.
+
+---
+
+## Mobile Application
+
+- As a business owner, I want to manage my business from my mobile phone so that I can stay connected while away from my desk.
