@@ -1,0 +1,261 @@
+# FlowDesk Product Roadmap
+
+## Overview
+
+The FlowDesk Product Roadmap outlines the planned evolution of the platform. Features are organised into releases based on business priority, development complexity, and user value.
+
+The initial focus is to deliver a stable Minimum Viable Product (MVP) that solves the core needs of service-based businesses. Future releases will expand the platform with advanced features, automation, and intelligent business tools.
+
+---
+
+# Product Vision
+
+Build an all-in-one SaaS platform that enables service-based businesses to manage customers, employees, services, bookings, and business operations from one intuitive dashboard.
+
+---
+
+# Version 1.0 – Minimum Viable Product (MVP)
+
+**Goal:** Launch a fully functional platform covering the essential day-to-day needs of a small service-based business.
+
+### Authentication
+- User registration
+- User login
+- Logout
+- Password reset
+
+### Business Management
+- Create business profile
+- Edit business information
+- Upload business logo
+- Configure operating hours
+
+### Dashboard
+- Business overview
+- Today's appointments
+- Customer statistics
+- Staff statistics
+- Recent activity
+
+### Customer Management
+- Add customer
+- Edit customer
+- Search customers
+- Customer profile
+- Booking history
+
+### Staff Management
+- Add employee
+- Edit employee
+- Role-based permissions
+
+### Service Management
+- Create services
+- Edit services
+- Set pricing
+- Set service duration
+
+### Booking Management
+- Create bookings
+- Edit bookings
+- Cancel bookings
+- Calendar integration
+- Prevent double bookings
+
+### Reports
+- Booking reports
+- Customer reports
+- Revenue summary
+
+### Notifications
+- Booking confirmations
+- Appointment reminders
+
+---
+
+# Version 1.5 – Enhanced Business Tools
+
+**Goal:** Improve business efficiency and user experience.
+
+### Dashboard Improvements
+- Custom dashboard widgets
+- Quick actions
+- Business insights
+
+### Customer Experience
+- Customer notes
+- Favourite customers
+- Customer search filters
+
+### Staff Features
+- Employee availability
+- Leave management
+- Performance summaries
+
+### Booking Features
+- Recurring appointments
+- Waiting list
+- Appointment status tracking
+
+### Reports
+- Export reports to PDF
+- Export reports to Excel
+- Monthly performance charts
+
+### Business Settings
+- Multiple user roles
+- Advanced notification preferences
+
+---
+
+# Version 2.0 – Business Growth
+
+**Goal:** Help businesses grow beyond day-to-day management.
+
+### Financial Tools
+- Invoice generation
+- Online payments
+- Expense tracking
+- Profit overview
+
+### Inventory
+- Product management
+- Stock levels
+- Low-stock alerts
+
+### Customer Engagement
+- Loyalty programme
+- Discount vouchers
+- Customer feedback
+- Review management
+
+### Marketing
+- Promotional campaigns
+- Email marketing
+- Seasonal offers
+
+### Website Generator
+- One-click business website
+- Online booking page
+- Contact forms
+- Service showcase
+
+---
+
+# Version 3.0 – Intelligent Automation
+
+**Goal:** Introduce automation and AI-powered business assistance.
+
+### AI Business Assistant
+- Daily business summaries
+- Revenue insights
+- Customer behaviour analysis
+- Growth recommendations
+- Cancellation analysis
+
+### Smart Scheduling
+- Automatic appointment suggestions
+- Intelligent staff allocation
+- Peak-hour analysis
+
+### Automation
+- Automatic follow-up emails
+- Appointment reminders
+- Customer re-engagement campaigns
+
+### Analytics
+- Business Health Score
+- Customer retention analysis
+- Revenue forecasting
+
+---
+
+# Version 4.0 – Platform Expansion
+
+**Goal:** Transform FlowDesk into a complete business ecosystem.
+
+### Mobile Application
+- Android application
+- iOS application
+
+### Multi-Branch Support
+- Manage multiple business locations
+- Branch-specific reporting
+- Staff allocation across branches
+
+### Integrations
+- Google Calendar
+- Outlook Calendar
+- WhatsApp
+- Email providers
+- Accounting software
+
+### Marketplace
+- Public business directory
+- Online business discovery
+- Customer reviews
+- Direct online bookings
+
+---
+
+# Long-Term Vision
+
+FlowDesk aims to become the preferred operating platform for service-based businesses by providing:
+
+- Business management
+- Appointment scheduling
+- Customer relationship management
+- Financial tools
+- Business analytics
+- AI-powered insights
+- Marketing automation
+- Website generation
+- Mobile accessibility
+
+---
+
+# Development Priorities
+
+| Priority | Focus | Status |
+|----------|-------|--------|
+| High | Core business management | Planned |
+| High | Booking system | Planned |
+| High | Customer management | Planned |
+| High | Dashboard | Planned |
+| Medium | Reports & analytics | Planned |
+| Medium | Notifications | Planned |
+| Medium | Calendar improvements | Planned |
+| Low | AI features | Future |
+| Low | Mobile application | Future |
+| Low | Marketplace | Future |
+
+---
+
+# Success Milestones
+
+### Milestone 1
+Project planning and documentation completed.
+
+### Milestone 2
+UI/UX design completed.
+
+### Milestone 3
+Backend API developed.
+
+### Milestone 4
+Frontend application completed.
+
+### Milestone 5
+Database integration completed.
+
+### Milestone 6
+Application deployed.
+
+### Milestone 7
+Version 1.0 released.
+
+### Milestone 8
+First real business onboarded.
+
+### Milestone 9
+Commercial launch.
