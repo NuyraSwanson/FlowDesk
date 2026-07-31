@@ -173,3 +173,89 @@
     }
 
 }
+
+/*==================================================
+TABLETS
+==================================================*/
+
+@media (max-width:900px){
+
+    .registration-card{
+
+        padding:2rem;
+
+    }
+
+    .form-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .registration-top{
+
+        flex-direction:column;
+
+        gap:1rem;
+
+    }
+
+    .steps{
+
+        gap:1rem;
+
+    }
+
+}
+
+/*==================================================
+MOBILE
+==================================================*/
+
+@media (max-width:600px){
+
+    .registration-buttons{
+
+        flex-direction:column;
+
+        gap:1rem;
+
+        align-items:stretch;
+
+    }
+
+    .registration-buttons button{
+
+        width:100%;
+
+        justify-content:center;
+
+    }
+
+    .back-link{
+
+        text-align:center;
+
+    }
+
+}
+
+/*==================================================
+BUSINESS HOURS
+==================================================*/
+
+@media (max-width:768px){
+
+    .day-row{
+
+        grid-template-columns:1fr;
+
+    }
+
+    .settings-grid{
+
+        grid-template-columns:1fr;
+
+    }
+
+}

@@ -268,3 +268,57 @@
     animation-delay:.45s;
 
 }
+
+/*==================================================
+REGISTRATION CARD
+==================================================*/
+
+@keyframes registerFade{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(40px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
+
+.registration-card{
+
+    animation:registerFade .8s ease;
+
+}
+
+/*==================================================
+FORM STEP ANIMATION
+==================================================*/
+
+@keyframes fadeStep{
+
+    from{
+
+        opacity:0;
+
+        transform:translateX(30px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateX(0);
+
+    }
+
+}

@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- ========================================= -->
+    <!-- Meta -->
+    <!-- ========================================= -->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Business Registration | FlowDesk</title>
+
+    <!-- ========================================= -->
+    <!-- Google Fonts -->
+    <!-- ========================================= -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- ========================================= -->
+    <!-- CSS -->
+    <!-- ========================================= -->
+
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/animations.css">
+
+    <!-- ========================================= -->
+    <!-- Font Awesome -->
+    <!-- ========================================= -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<!-- ========================================= -->
+<!-- Header -->
+<!-- ========================================= -->
+
+<header>
+
+    <nav class="navbar">
+
+        <a href="../index.html" class="logo">
+
+            <img src="../images/flowdesk-logo.png"
+                 alt="FlowDesk Logo"
+                 class="logo-image">
+
+            <span>FlowDesk</span>
+
+        </a>
+
+        <ul class="nav-links">
+
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+
+        </ul>
+
+        <a href="login.html" class="btn btn-primary">
+
+            Log In
+
+        </a>
+
+    </nav>
+
+</header>
+
+<!-- ========================================= -->
+<!-- Registration -->
+<!-- ========================================= -->
+
+<main>
+
+<section class="business-registration">
+
+<div class="registration-card">
+
+    <!-- Progress -->
+
+    <div class="registration-top">
+
+        <div>
+
+            <span class="small-heading">
+
+                Join the Flow
+
+            </span>
+
+            <h1>Create your Business Account</h1>
+
+        </div>
+
+        <div class="step-counter">
+
+            Step 1 of 3
+
+        </div>
+
+    </div>
+
+    <!-- Progress Bar -->
+
+    <div class="progress-bar">
+
+        <div class="progress-fill"></div>
+
+    </div>
+
+    <!-- Step Navigation -->
+
+    <div class="steps">
+
+        <div class="progress-step active" id="progress-1">
+
+            <span>1</span>
+
+            <p>Business Info</p>
+
+        </div>
+
+        <div class="progress-step" id="progress-2">
+
+            <span>2</span>
+
+            <p>Business Details</p>
+
+        </div>
+
+        <div class="progress-step" id="progress-3">
+
+            <span>3</span>
+
+            <p>Services</p>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- FORM -->
+    <!-- ========================================= -->
+
+    <form id="businessRegisterForm">
+
+        <div class="form-step active" id="step-1">
+
+        <div class="form-grid">
+
+            <!-- Business Name -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-store"></i>
+
+                    Business Name
+
+                </label>
+
+                <input
+    id="businessName"
+    type="text"
+    placeholder="e.g. Sunset Hair Studio"
+    required>
+
+            </div>
+
+            <!-- Industry -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-briefcase"></i>
+
+                    Industry
+
+                </label>
+
+                <select id="industry" required>
+
+                    <option value="">Select Industry</option>
+
+                    <option>Hair Salon</option>
+
+                    <option>Barbershop</option>
+
+                    <option>Beauty Salon</option>
+
+                    <option>Spa</option>
+
+                    <option>Gym</option>
+
+                    <option>Photographer</option>
+
+                    <option>Mechanic</option>
+
+                    <option>Cleaning Services</option>
+
+                    <option>Pet Grooming</option>
+
+                    <option>Tutoring</option>
+
+                    <option>Medical Practice</option>
+
+                    <option>Other</option>
+
+                </select>
+
+            </div>
+
+            <!-- Owner -->
+
+            <div class="form-group full-width">
+
+                <label>
+
+                    <i class="fa-solid fa-user"></i>
+
+                    Owner Full Name
+
+                </label>
+
+                <input
+    id="ownerName"
+    type="text"
+    placeholder="John Smith"
+    required>
+
+            </div>
+
+            <!-- Email -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    Business Email
+
+                </label>
+
+                <input
+    id="businessEmail"
+    type="email"
+    placeholder="hello@business.com"
+    required>
+
+            </div>
+
+            <!-- Phone -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    Phone Number
+
+                </label>
+
+                <input
+    id="phoneNumber"
+    type="tel"
+    placeholder="+27 82 123 4567"
+    required>
+
+            </div>
+
+            <!-- Password -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    Password
+
+                </label>
+
+                <input
+    id="password"
+    type="password"
+    placeholder="Create password"
+    required>
+
+            </div>
+
+            <!-- Confirm -->
+
+            <div class="form-group">
+
+                <label>
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    Confirm Password
+
+                </label>
+<input
+    id="confirmPassword"
+    type="password"
+    placeholder="Confirm password"
+    required>
+
+            </div>
+
+        </div>
+
+        <!-- Terms -->
+
+        <div class="checkbox">
+
+            <input
+    id="terms"
+    type="checkbox"
+    required>
+
+            <label>
+
+                I agree to the Terms & Conditions and Privacy Policy.
+
+            </label>
+
+        </div>
+
+        <!-- Buttons -->
+
+        <div class="registration-buttons">
+
+            <a href="../index.html" class="back-link">
+
+                ← Back
+
+            </a>
+
+            <button type="button"
+        class="btn btn-primary next-btn"
+        data-next="2">
+
+    Continue
+
+</button>
+
+        </div>
+        </div>
+
+        <!-- ========================================= -->
+<!-- STEP 2 -->
+<!-- ========================================= -->
+
+<div class="form-step" id="step-2">
+
+    <div class="step-header">
+
+        <h2>Business Details</h2>
+
+        <p>
+            Tell us a little more about your business so customers can find you.
+        </p>
+
+    </div>
+
+    <div class="form-grid">
+
+        <!-- Business Logo -->
+
+        <div class="form-group full-width">
+
+            <label>
+
+                <i class="fa-solid fa-image"></i>
+
+                Business Logo (Optional)
+
+            </label>
+
+            <input
+                    type="file"
+                    accept="image/*">
+
+        </div>
+
+        <!-- Description -->
+
+        <div class="form-group full-width">
+
+            <label>
+
+                <i class="fa-solid fa-align-left"></i>
+
+                Business Description
+
+            </label>
+
+            <textarea
+                    rows="5"
+                    placeholder="Tell customers about your business..."></textarea>
+
+        </div>
+
+        <!-- Address -->
+
+        <div class="form-group full-width">
+
+            <label>
+
+                <i class="fa-solid fa-location-dot"></i>
+
+                Street Address
+
+            </label>
+
+            <input
+    id="streetAddress"
+    type="text"
+    placeholder="123 Main Street"
+    required>
+
+        </div>
+
+        <!-- City -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-city"></i>
+
+                City
+
+            </label>
+
+            <input
+    id="city"
+    type="text"
+    placeholder="Cape Town"
+    required>
+
+        </div>
+
+        <!-- Province -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-map"></i>
+
+                Province
+
+            </label>
+
+            <select id="province" required>
+
+                <option value="">Select Province</option>
+
+                <option>Eastern Cape</option>
+
+                <option>Free State</option>
+
+                <option>Gauteng</option>
+
+                <option>KwaZulu-Natal</option>
+
+                <option>Limpopo</option>
+
+                <option>Mpumalanga</option>
+
+                <option>North West</option>
+
+                <option>Northern Cape</option>
+
+                <option>Western Cape</option>
+
+            </select>
+
+        </div>
+
+        <!-- Postal Code -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-mailbox"></i>
+
+                Postal Code
+
+            </label>
+
+            <input
+    id="postalCode"
+    type="text"
+    placeholder="8001"
+    required>
+
+        </div>
+
+        <!-- Country -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-earth-africa"></i>
+
+                Country
+
+            </label>
+
+            <select id="country" required>
+
+                <option>South Africa</option>
+
+            </select>
+
+        </div>
+
+        <!-- Website -->
+
+        <div class="form-group full-width">
+
+            <label>
+
+                <i class="fa-solid fa-globe"></i>
+
+                Website (Optional)
+
+            </label>
+
+            <input
+                    type="url"
+                    placeholder="https://www.yourbusiness.co.za">
+
+        </div>
+
+    </div>
+
+    <!-- Business Hours -->
+
+    <h3 class="section-title">
+
+        Business Hours
+
+    </h3>
+
+    <div class="business-hours">
+
+        <div class="day-row">
+
+            <span>Monday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Tuesday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Wednesday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Thursday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Friday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Saturday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+        <div class="day-row">
+
+            <span>Sunday</span>
+
+            <input type="time">
+
+            <input type="time">
+
+        </div>
+
+    </div>
+
+    <!-- Navigation -->
+
+    <div class="registration-buttons">
+
+        <button type="button"
+        class="btn btn-secondary prev-btn"
+        data-prev="1">
+
+    Back
+
+</button>
+
+<button type="button"
+        class="btn btn-primary next-btn"
+        data-next="3">
+
+    Continue
+
+</button>
+
+    </div>
+
+</div>
+
+<!-- ========================================= -->
+<!-- STEP 3 -->
+<!-- ========================================= -->
+
+<div class="form-step" id="step-3">
+
+    <div class="step-header">
+
+        <h2>Services & Preferences</h2>
+
+        <p>
+
+            Add your first service and choose how customers can book with you.
+
+        </p>
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- FIRST SERVICE -->
+    <!-- ========================================= -->
+
+    <h3 class="section-title">
+
+        First Service
+
+    </h3>
+
+    <div class="form-grid">
+
+        <!-- Service Name -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-scissors"></i>
+
+                Service Name
+
+            </label>
+
+            <input
+    id="serviceName"
+    type="text"
+    placeholder="Haircut">
+
+        </div>
+
+        <!-- Category -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-layer-group"></i>
+
+                Category
+
+            </label>
+
+            <input
+    id="serviceCategory"
+    type="text"
+    placeholder="Hair">
+
+        </div>
+
+        <!-- Duration -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-clock"></i>
+
+                Duration
+
+            </label>
+
+            <select id="serviceDuration">
+
+    <option value="">Select Duration</option>
+    <option>15 Minutes</option>
+    <option>30 Minutes</option>
+    <option>45 Minutes</option>
+    <option>60 Minutes</option>
+    <option>90 Minutes</option>
+    <option>120 Minutes</option>
+
+</select>
+        </div>
+
+        <!-- Price -->
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-coins"></i>
+
+                Price
+
+            </label>
+
+            <input
+    id="servicePrice"
+    type="number"
+    min="1"
+    placeholder="250">
+
+        </div>
+
+    </div>
+
+    <!-- Add More -->
+
+    <button
+        type="button"
+        class="btn btn-outline add-service-btn">
+
+        <i class="fa-solid fa-plus"></i>
+
+        Add Another Service
+
+    </button>
+
+    <!-- ========================================= -->
+    <!-- BOOKING SETTINGS -->
+    <!-- ========================================= -->
+
+    <h3 class="section-title">
+
+        Booking Preferences
+
+    </h3>
+
+    <div class="settings-grid">
+
+        <label class="setting-item">
+
+            <input type="checkbox" checked>
+
+            Customers can book online
+
+        </label>
+
+        <label class="setting-item">
+
+            <input type="checkbox" checked>
+
+            Customers can cancel bookings
+
+        </label>
+
+        <label class="setting-item">
+
+            <input type="checkbox">
+
+            Require booking approval
+
+        </label>
+
+        <label class="setting-item">
+
+            <input type="checkbox" checked>
+
+            Send email reminders
+
+        </label>
+
+        <label class="setting-item">
+
+            <input type="checkbox">
+
+            Send SMS reminders
+
+        </label>
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- TIME SLOT -->
+    <!-- ========================================= -->
+
+    <h3 class="section-title">
+
+        Appointment Settings
+
+    </h3>
+
+    <div class="form-grid">
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-calendar-days"></i>
+
+                Default Appointment Length
+
+            </label>
+
+            <select>
+
+                <option>15 Minutes</option>
+                <option selected>30 Minutes</option>
+                <option>45 Minutes</option>
+                <option>60 Minutes</option>
+
+            </select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label>
+
+                <i class="fa-solid fa-money-bill-wave"></i>
+
+                Currency
+
+            </label>
+
+            <select>
+
+                <option selected>South African Rand (ZAR)</option>
+
+            </select>
+
+        </div>
+
+    </div>
+
+    <!-- ========================================= -->
+    <!-- FINISH -->
+    <!-- ========================================= -->
+
+    <div class="registration-buttons">
+
+        <button type="button"
+        class="btn btn-secondary prev-btn"
+        data-prev="2">
+
+    Back
+
+</button>
+
+        <button type="submit" class="btn btn-primary">
+
+    Finish Registration
+
+</button>
+
+    </div>
+
+</div>
+
+    </form>
+
+</div>
+
+<!-- Bottom Text -->
+
+<div class="join-text">
+
+    <p>
+
+        🚀 Join <strong>2,400+</strong> businesses already growing with FlowDesk.
+
+    </p>
+
+</div>
+
+</section>
+
+</main>
+
+<!-- ========================================= -->
+<!-- Footer -->
+<!-- ========================================= -->
+
+<footer>
+
+    <div class="footer-left">
+
+        <div class="logo">
+
+            <img src="../images/flowdesk-logo.png"
+                 alt="FlowDesk Logo"
+                 class="logo-image">
+
+            <span>FlowDesk</span>
+
+        </div>
+
+        <p>
+
+            Making business management simple and enjoyable.
+
+        </p>
+
+    </div>
+
+    <div class="footer-links">
+
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Support</a>
+        <a href="#">Contact</a>
+
+    </div>
+
+    <div class="footer-right">
+
+        © 2026 FlowDesk
+
+    </div>
+
+</footer>
+
+<script src="../js/register.js"></script>
+
+</body>
+
+</html>

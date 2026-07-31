@@ -1046,6 +1046,8 @@ footer{
    BUTTONS
 ========================================= */
 
+
+
 .signup-button{
 
     display: flex;
@@ -1073,6 +1075,7 @@ footer{
     transition: .35s;
 
 }
+
 
 .business .signup-button{
 
@@ -1205,3 +1208,776 @@ footer{
     opacity:1;
 
 }
+
+/*==================================================
+BUSINESS REGISTRATION
+==================================================*/
+
+.business-registration{
+
+    min-height:100vh;
+
+    padding:9rem 2rem 5rem;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+/*==================================================
+REGISTRATION CARD
+==================================================*/
+
+.registration-card{
+
+    width:100%;
+
+    max-width:900px;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(20px);
+
+    border-radius:30px;
+
+    padding:3.5rem;
+
+    border:1px solid rgba(255,255,255,.6);
+
+    box-shadow:0 20px 60px rgba(0,0,0,.08);
+
+}
+
+/*==================================================
+HEADER
+==================================================*/
+
+.registration-top{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    margin-bottom:2rem;
+
+}
+
+.small-heading{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+    letter-spacing:1px;
+
+    text-transform:uppercase;
+
+    font-size:.85rem;
+
+}
+
+.registration-top h1{
+
+    margin-top:.5rem;
+
+    font-size:2.4rem;
+
+    color:var(--heading);
+
+}
+
+.step-counter{
+
+    font-size:1rem;
+
+    font-weight:600;
+
+    color:var(--text);
+
+}
+
+/*==================================================
+PROGRESS BAR
+==================================================*/
+
+.progress-bar{
+
+    width:100%;
+
+    height:8px;
+
+    border-radius:50px;
+
+    background:#ECEBFF;
+
+    overflow:hidden;
+
+    margin:2rem 0;
+
+}
+
+.progress-fill{
+
+    width:33%;
+
+    height:100%;
+
+    border-radius:50px;
+
+    background:linear-gradient(90deg,#4F46E5,#7C3AED);
+
+}
+
+/*==================================================
+STEP INDICATORS
+==================================================*/
+
+.steps{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    margin-bottom:3rem;
+
+}
+
+.step{
+
+    text-align:center;
+
+    flex:1;
+
+}
+
+.step span{
+
+    width:45px;
+
+    height:45px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    margin:auto;
+
+    font-weight:700;
+
+    background:#ECEBFF;
+
+    color:var(--primary);
+
+}
+
+.step p{
+
+    margin-top:.8rem;
+
+    font-size:.95rem;
+
+}
+
+.step.active span{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+.step.active p{
+
+    color:var(--primary);
+
+    font-weight:700;
+
+}
+
+/*==================================================
+FORM
+==================================================*/
+
+.form-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:1.5rem;
+
+}
+
+.form-group{
+
+    display:flex;
+
+    flex-direction:column;
+
+}
+
+.full-width{
+
+    grid-column:1 / -1;
+
+}
+
+.form-group label{
+
+    margin-bottom:.7rem;
+
+    font-weight:600;
+
+    color:var(--heading);
+
+}
+
+.form-group label i{
+
+    color:var(--primary);
+
+    margin-right:.5rem;
+
+}
+
+.form-group input,
+.form-group select{
+
+    height:58px;
+
+    border-radius:15px;
+
+    border:1.5px solid #D9D9E6;
+
+    padding:0 1rem;
+
+    font-size:1rem;
+
+    background:#FAFAFF;
+
+    transition:.3s;
+
+    outline:none;
+
+}
+
+.form-group input:focus,
+.form-group select:focus{
+
+    border-color:var(--primary);
+
+    background:white;
+
+    box-shadow:0 0 0 4px rgba(79,70,229,.12);
+
+}
+
+/*==================================================
+CHECKBOX
+==================================================*/
+
+.checkbox{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.8rem;
+
+    margin:2rem 0;
+
+}
+
+.checkbox input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+.checkbox label{
+
+    color:var(--text);
+
+}
+
+/*==================================================
+BUTTONS
+==================================================*/
+
+.registration-buttons{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-top:2rem;
+
+}
+
+.back-link{
+
+    text-decoration:none;
+
+    color:var(--heading);
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.back-link:hover{
+
+    color:var(--primary);
+
+}
+
+.registration-buttons button{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:.8rem;
+
+    padding:1rem 2.5rem;
+
+}
+
+/*==================================================
+BOTTOM TEXT
+==================================================*/
+
+.join-text{
+
+    margin-top:2rem;
+
+    text-align:center;
+
+    color:var(--text);
+
+    font-size:1rem;
+
+}
+
+.join-text strong{
+
+    color:var(--primary);
+
+}
+
+/*==================================================
+HOVER EFFECT
+==================================================*/
+
+.registration-card:hover{
+
+    transform:translateY(-5px);
+
+    transition:.35s;
+
+}
+
+/*==================================================
+STEP HEADERS
+==================================================*/
+
+.step-header{
+
+    margin-bottom:2.5rem;
+
+}
+
+.step-header h2{
+
+    font-size:2rem;
+
+    color:var(--heading);
+
+    margin-bottom:.75rem;
+
+}
+
+.step-header p{
+
+    color:var(--text);
+
+    font-size:1.05rem;
+
+    line-height:1.7;
+
+}
+
+/*==================================================
+SECTION TITLES
+==================================================*/
+
+.section-title{
+
+    margin:3rem 0 1.5rem;
+
+    font-size:1.3rem;
+
+    font-weight:700;
+
+    color:var(--heading);
+
+    padding-bottom:.75rem;
+
+    border-bottom:2px solid #ECEBFF;
+
+}
+
+/*==================================================
+TEXTAREA
+==================================================*/
+
+.form-group textarea{
+
+    width:100%;
+
+    min-height:140px;
+
+    resize:vertical;
+
+    padding:1rem;
+
+    border-radius:15px;
+
+    border:1.5px solid #D9D9E6;
+
+    background:#FAFAFF;
+
+    font-size:1rem;
+
+    font-family:inherit;
+
+    transition:.3s;
+
+    outline:none;
+
+}
+
+.form-group textarea:focus{
+
+    border-color:var(--primary);
+
+    background:white;
+
+    box-shadow:0 0 0 4px rgba(79,70,229,.12);
+
+}
+
+/*==================================================
+FILE INPUT
+==================================================*/
+
+input[type="file"]{
+
+    padding:.8rem;
+
+    border:2px dashed #D8D8E8;
+
+    border-radius:15px;
+
+    background:#FAFAFF;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+input[type="file"]:hover{
+
+    border-color:var(--primary);
+
+    background:#F6F5FF;
+
+}
+
+/*==================================================
+BUSINESS HOURS
+==================================================*/
+
+.business-hours{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:1rem;
+
+    margin-top:1.5rem;
+
+}
+
+.day-row{
+
+    display:grid;
+
+    grid-template-columns:140px 1fr 1fr;
+
+    gap:1rem;
+
+    align-items:center;
+
+    padding:1rem;
+
+    border-radius:15px;
+
+    background:#FAFAFF;
+
+    transition:.3s;
+
+}
+
+.day-row:hover{
+
+    background:white;
+
+    box-shadow:0 8px 18px rgba(0,0,0,.05);
+
+}
+
+.day-row span{
+
+    font-weight:600;
+
+    color:var(--heading);
+
+}
+
+.day-row input{
+
+    height:52px;
+
+    border:1.5px solid #D9D9E6;
+
+    border-radius:12px;
+
+    padding:0 .8rem;
+
+    background:white;
+
+}
+
+/*==================================================
+ADD SERVICE BUTTON
+==================================================*/
+
+.add-service-btn{
+
+    margin-top:2rem;
+
+    display:inline-flex;
+
+    align-items:center;
+
+    gap:.75rem;
+
+}
+
+.btn-outline{
+
+    background:white;
+
+    border:2px solid var(--primary);
+
+    color:var(--primary);
+
+    transition:.35s;
+
+}
+
+.btn-outline:hover{
+
+    background:var(--primary);
+
+    color:white;
+
+}
+
+/*==================================================
+SETTINGS GRID
+==================================================*/
+
+.settings-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:1rem;
+
+    margin-top:2rem;
+
+}
+
+.setting-item{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:1rem;
+
+    padding:1rem;
+
+    border-radius:15px;
+
+    background:#FAFAFF;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.setting-item:hover{
+
+    background:white;
+
+    transform:translateY(-2px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,.05);
+
+}
+
+.setting-item input{
+
+    width:18px;
+
+    height:18px;
+
+}
+
+/*==================================================
+APPOINTMENT SETTINGS
+==================================================*/
+
+.settings-grid + .form-grid{
+
+    margin-top:2rem;
+
+}
+
+/*==================================================
+FORM STEPS
+==================================================*/
+
+.form-step{
+    display:none;
+}
+
+.form-step.active{
+    display:block;
+}
+
+.progress-step{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:.5rem;
+
+    opacity:.45;
+
+    transition:.35s;
+
+}
+
+.progress-step.active{
+    opacity:1;
+}
+
+.progress-step span{
+
+    width:50px;
+
+    height:50px;
+
+    border-radius:50%;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-weight:700;
+
+    background:#E5E7EB;
+
+    color:#6B7280;
+
+    transition:.35s;
+
+}
+
+.progress-step p{
+
+    font-size:.95rem;
+
+    color:#9CA3AF;
+
+    transition:.35s;
+
+}
+
+.progress-step.active{
+
+    opacity:1;
+
+}
+
+.progress-step.active span{
+
+    background:linear-gradient(135deg,#4F46E5,#6366F1);
+
+    color:white;
+
+    transform:scale(1.1);
+
+    box-shadow:0 10px 25px rgba(79,70,229,.3);
+
+}
+
+.progress-step.active p{
+
+    color:var(--heading);
+
+    font-weight:700;
+
+}
+
+.signup-button{
+
+    position: relative !important;
+
+    z-index: 9999 !important;
+
+    pointer-events: auto !important;
+
+    cursor: pointer !important;
+
+}
+
