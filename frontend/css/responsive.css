@@ -1,0 +1,175 @@
+/* ==========================================
+   LARGE TABLETS
+========================================== */
+
+@media (max-width:1200px){
+
+    .hero h1{
+
+        font-size:3.8rem;
+
+    }
+
+    .portal-cards{
+
+        gap:1.5rem;
+
+    }
+
+}
+
+/* ==========================================
+   TABLETS
+========================================== */
+
+@media (max-width:992px){
+
+    .navbar{
+
+        flex-direction:column;
+        gap:1.5rem;
+
+    }
+
+    .nav-links{
+
+        gap:2rem;
+
+    }
+
+    .hero{
+
+        padding:4rem 0;
+
+    }
+
+    .hero h1{
+
+        font-size:3.2rem;
+
+    }
+
+    .hero p{
+
+        font-size:1.1rem;
+
+    }
+
+    .portal-card{
+
+        width:320px;
+
+    }
+
+    footer{
+
+        text-align:center;
+        flex-direction:column;
+
+    }
+
+}
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width:768px){
+
+    .nav-links{
+
+        display:none;
+
+    }
+
+    .navbar{
+
+        justify-content:space-between;
+
+    }
+
+    .hero{
+
+        min-height:auto;
+
+        padding:4rem 0;
+
+    }
+
+    .hero h1{
+
+        font-size:2.5rem;
+
+    }
+
+    .hero p{
+
+        font-size:1rem;
+
+    }
+
+    .portal-cards{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .portal-card{
+
+        width:100%;
+
+        max-width:400px;
+
+    }
+
+    .footer-links{
+
+        flex-wrap:wrap;
+
+        justify-content:center;
+
+    }
+
+}
+
+/* ==========================================
+   SMALL PHONES
+========================================== */
+
+@media (max-width:480px){
+
+    .logo span{
+
+        font-size:1.4rem;
+
+    }
+
+    .btn{
+
+        padding:.8rem 1.2rem;
+
+        font-size:.9rem;
+
+    }
+
+    .hero h1{
+
+        font-size:2rem;
+
+    }
+
+    .hero-badge{
+
+        font-size:.85rem;
+
+    }
+
+    .portal-card{
+
+        padding:2rem;
+
+    }
+
+}
