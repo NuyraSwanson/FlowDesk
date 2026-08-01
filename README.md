@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/flowdesk-logo.png" alt="FlowDesk Logo" width="220">
+  <img src="frontend/images/flowdesk-logo.png" alt="FlowDesk Logo" width="220">
 </p>
 
 <h1 align="center">FlowDesk</h1>
@@ -161,7 +161,7 @@ flowdesk/
 - [x] Project planning
 - [x] Repository creation
 - [x] Branding & logo
-- [ ] UI/UX design
+- [x] UI/UX design
 - [ ] Database design
 - [ ] Backend development
 - [ ] Frontend development
